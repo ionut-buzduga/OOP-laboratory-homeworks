@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\lab6_9oop\tema9_3\tema9_3\main.cpp(35,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\lab6_9oop\tema9_3\tema9_3\main.cpp(58,34): warning C4018: '<': signed/unsigned mismatch
+  tema9_3.vcxproj -> D:\lab6_9oop\tema9_3\Debug\tema9_3.exe

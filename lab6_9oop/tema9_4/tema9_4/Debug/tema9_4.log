@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\lab6_9oop\tema9_4\tema9_4\main.cpp(62,40): warning C4018: '<': signed/unsigned mismatch
+D:\lab6_9oop\tema9_4\tema9_4\main.cpp(68,40): warning C4018: '<': signed/unsigned mismatch
+  tema9_4.vcxproj -> D:\lab6_9oop\tema9_4\Debug\tema9_4.exe

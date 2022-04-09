@@ -1,0 +1,49 @@
+#include <iostream>
+#include <string>
+#include <list>
+#include <vector>
+#include <utility>
+
+using namespace std;
+
+class Driver {
+	string name;
+public:
+	Driver(string name) {
+		this->name = name;
+	}
+	void setName(string name) {
+		this->name = name;
+	}
+	string getName() {
+		return this->name;
+	}
+};
+
+class Car {
+	string model;
+public:
+	Car(string model) {
+		this->model = model;
+	}
+	void setModel(string model) {
+		this->model = model;
+	}
+	string getModel() {
+		return this->model;
+	}
+};
+
+int main()
+{
+	Driver driver("ionut");
+	cout << driver.getName() << endl;
+	driver.setName("marcel");
+	cout << driver.getName()<<endl;
+	Car car("golf5");
+	cout << car.getModel() << endl;
+	car.setModel("stepway");
+	cout << car.getModel()<<endl;
+
+	return 0;
+}
